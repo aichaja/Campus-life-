@@ -1,0 +1,17 @@
+header{
+    width : 1,024px;
+    height : 52px;
+    background:#3d9926;
+    display : flex 
+}
+
+.logo{
+    font-size : 21px;
+    color :#0A1222;
+    background:#412a89;
+}
+.menu{
+    font-size : 9px;
+    background:#7e8742;
+}
+
