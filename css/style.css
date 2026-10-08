@@ -1,17 +1,106 @@
 header{
     width : 1,024px;
-    height : 52px;
-    background:#3d9926;
-    display : flex 
+    height: 52px;
+    background:#FFFFFF;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    
+  
+
+
 }
 
 .logo{
-    font-size : 21px;
-    color :#0A1222;
-    background:#412a89;
+    color: black;
+    width: 120;
+    height: 25;
+    top: 11px;
+    left: 52px;
+    font-size: 21px;
+    font-family: Inter;
+    font-weight: 80;
+    font-style: Extra Bold;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+     
 }
-.menu{
-    font-size : 9px;
-    background:#7e8742;
+a{
+    text-decoration: none;
+    color: #0A1222;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 9PX;
+}
+ul.menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ 
+  display: flex;
+  gap: 1rem;
+    
+}
+
+.a{
+
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.icon{
+    width: 42;
+    height: 36;
+    top: 12px;
+    left: 810px;
+
+
+}
+
+button{
+    width: 120px;
+    height: 29px;
+    top: 12px;
+    left: 858px;
+    border-radius: 5px; 
+    background: #034BFF;
+    color: #FFFFFF;
+
+}
+
+hero{
+    width: 1,024px;
+    height: 461px;
+    display: flex;
+    background: #08111D;
+}
+h2{
+    color: #FFFFFF;
+    font-size: 76px;
+
+
+}
+h3{
+    color: #034BFF;
+    font-size: 88px;
+}
+h4{
+    color:#C7F64A;
+    font-size: 66px;
+    font-family: Inter;
+    font-weight: 900;
+    font-style: Black;
+
+    line-height: 120%;
+    letter-spacing: 0%;
+
+}
+h5{
+    color:#FFFFFF;
+}
+p{
+    color:#FFFFFF;
 }
 
