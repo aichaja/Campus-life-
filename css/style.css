@@ -16,21 +16,17 @@ header{
     color: black;
     width: 120;
     height: 25;
-    top: 11px;
-    left: 52px;
     font-size: 21px;
-    font-family: Inter;
-    font-weight: 80;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
     font-style: Extra Bold;
-    line-height: 120%;
-    letter-spacing: 0%;
-
      
 }
 a{
-    text-decoration: none;
+    
     color: #0A1222;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Intrt", sans-serif;
     font-weight: 400;
     font-size: 9PX;
 }
@@ -41,6 +37,7 @@ ul.menu{
  
   display: flex;
   gap: 1rem;
+  
     
 }
 
@@ -59,48 +56,149 @@ ul.menu{
 
 }
 
-button{
+#button1{
     width: 120px;
-    height: 29px;
-    top: 12px;
-    left: 858px;
+    height: auto;
     border-radius: 5px; 
     background: #034BFF;
     color: #FFFFFF;
+    text-align: center;
 
 }
 
 hero{
-    width: 1,024px;
-    height: 461px;
+    /*width: 1,024px;
+    height: 461px;*/
     display: flex;
     background: #08111D;
+    justify-content: space-between;
+    
+
 }
+
+
 h2{
+    
     color: #FFFFFF;
     font-size: 76px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-style: Black;
+    
 
+
+}
+.aa{
+    display: flex;
+    gap: 3rem;
 
 }
 h3{
     color: #034BFF;
     font-size: 88px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-style: Black;
+   
+
 }
 h4{
     color:#C7F64A;
     font-size: 66px;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-weight: 900;
     font-style: Black;
-
-    line-height: 120%;
-    letter-spacing: 0%;
+    
+    
 
 }
 h5{
     color:#FFFFFF;
+    font-size: 26px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-style: Extra Bold;
+    
 }
 p{
     color:#FFFFFF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    
 }
+#button2{
+    width: 184;
+    height: 42;
+    top: 334px;
+    left: 61px;
+    border-radius: 5px;
+    background: #034BFF;
+    color: #FFFFFF;
+
+}
+#button3{
+    width: 176;
+    height: 42;
+    top: 334px;
+    left: 264px;
+    border-radius: 5px;
+    border-width: 1px;
+    background: #08111D;
+    color: #FFFFFF;
+
+}
+.ac{
+    display: flex;
+    
+    gap: 1rem;
+    
+}
+#A{
+    width: 27;
+    height: 27;
+    top: 402px;
+    left: 61px;
+    background: #B8C9CF;
+    border-radius: 100%;
+
+}
+#S{
+    width: 27;
+    height: 27;
+    top: 402px;
+    left: 61px;
+    background: #D7C3B6;
+    border-radius: 100%;
+
+}
+#Y{
+    width: 27;
+    height: 27;
+    top: 402px;
+    left: 61px;
+    background: #B8C9CF;
+    border-radius: 100%;
+
+}
+#M{
+    width: 27;
+    height: 27;
+    top: 402px;
+    left: 61px;
+    background: #D7C3B6;
+    border-radius: 100%;
+
+}
+
+.ellipse{
+    display: flex;
+    
+}
+
+
+
+
+
 
