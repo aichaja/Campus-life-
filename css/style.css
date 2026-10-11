@@ -67,15 +67,27 @@ ul.menu{
 }
 
 hero{
-    /*width: 1,024px;
-    height: 461px;*/
+    width: 1,024px;
+    height: 461px;
     display: flex;
     background: #08111D;
     justify-content: space-between;
     
 
 }
+.herocampuslife{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.herocampuslife h2,
+.herocampuslife h3,
+.herocampuslife h4,
+.herocampuslife h5,
+.herocampuslife p {
+    margin: 0;
+}
 
 h2{
     
@@ -90,7 +102,8 @@ h2{
 }
 .aa{
     display: flex;
-    gap: 3rem;
+    align-items: center;
+    gap: 70px;
 
 }
 h3{
@@ -127,6 +140,9 @@ p{
     font-weight: 400;
     font-style: Regular;
     
+}
+.buttona{
+    display: flex;
 }
 #button2{
     width: 184;
@@ -196,7 +212,6 @@ p{
     display: flex;
     
 }
-
 
 
 
